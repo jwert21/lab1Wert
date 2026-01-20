@@ -1,5 +1,5 @@
 public class Motorcycle{
-
-    private String color;
-
+    public static void main(String[] args){
+        Motorcycle ml = new Motorcycle();
+    }
 }
