@@ -1,8 +1,11 @@
 public class Battery {
+
     private String cc;
     private String hp;
 
-    public Battery(String cc) { this.cc = cc; }
+    public Battery(String cc) {
+        this.cc = cc;
+    }
 
     public Battery(String cc, String hp) {
         this.cc = cc;
