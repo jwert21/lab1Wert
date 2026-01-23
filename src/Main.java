@@ -13,15 +13,15 @@
 public class Main {
     public static void main(String[] args){
         Motorcycle m1 = new Motorcycle( "Red", 60.5, Material.GOLD);
-        myMotorcycle.setColor("Red");
-        myMotorcycle.setSize(35.0);
+        m1.setColor("Red");
+        m1.setSize(35.0);
         System.out.println(m1.getColor());
 
         Motorcycle m2 = new Motorcycle( "Blue", 55.5, Material.BAMBOO);
-        myMotorcycle.setColor("Blue");
+        m2.setColor("Blue");
         System.out.println(m2.getColor());
 
-        Motorcycle m3 = new Motorcycle("Purple", 57.5, Material.Ti);
+        Motorcycle m3 = new Motorcycle("Purple", 57.5, Material.TI);
         System.out.println("Motorcycle color: " + m1.getColor());
         System.out.println("Motorcycle size: " + m1.getSize());
         System.out.println("Frame material: " + m1.getFrameMaterial());

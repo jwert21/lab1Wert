@@ -1,4 +1,4 @@
 // Enumeration for Frame Material
 enum Material {
-    BAMBOO, GOLD, PLASTIC, Ti
+    BAMBOO, GOLD, PLASTIC, TI
 }
