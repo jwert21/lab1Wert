@@ -17,14 +17,58 @@ public class Motorcycle{
      */
 
     private String colorA;
+    /**
+     * The size of the motorcycle
+     */
+    private double size;
+    private Frame frame;
+    private Wheel[] wheels;
+
+    /**
+     * Adds two numbers and returns the result.
+     *
+     * @param colorA This is the color of the bike frame.
+     * @param size This is the size of the bike frame.
+     */
 
 
-    public Motorcycle(String color1){
+    public Motorcycle(String color1, double size, Material frameMaterial, double wheelSize){
         this.colorA = color1;
+        this.size = size;
+        this.frame = new Frame(frameMaterial);
+        this.wheels = new Wheel[2];
+        this.wheels[0] = new Wheel(wheelSize);
+        this.wheels[1] = new Wheel(wheelSize);
     }
 
     public String getColor(){
         return this.colorA;
     }
 
+    public void setColor(String color){
+        this.colorA = color;
+    }
+
+    public double getSize(){
+        return size;
+    }
+
+    public void setSize(double size){
+        this.size = size;
+    }
+
+    public Material getFrameMaterial(){
+        return frame.getMaterial();
+    }
+
+    public double getWheelSize(){
+        return wheels[0].getSize();
+    }
+
+    public void start() {
+        System.out.println("Motorcycle started!");
+    }
+    public void stop() {
+        System.out.println("Motorcycle stopped.");
+    }
 }
