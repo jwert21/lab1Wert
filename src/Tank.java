@@ -3,7 +3,9 @@ public class Tank {
     private String cc;
     private String hp;
 
-    public Tank(String cc) {this.cc = cc; }
+    public Tank(String cc) {
+        this.cc = cc;
+    }
 
     public Tank(String cc, String hp) {
         this.cc = cc;
