@@ -1,3 +1,4 @@
+package lab1;
 // Wheel class
 public class Wheel {
     private double size;

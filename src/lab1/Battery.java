@@ -1,13 +1,14 @@
-public class Engine {
+package lab1;
+public class Battery {
 
     private String cc;
     private String hp;
 
-    public Engine(String cc) {
+    public Battery(String cc) {
         this.cc = cc;
     }
 
-    public Engine(String cc, String hp) {
+    public Battery(String cc, String hp) {
         this.cc = cc;
         this.hp = hp;
     }
@@ -20,4 +21,3 @@ public class Engine {
         return this.cc;
     }
 }
-

@@ -1,22 +1,24 @@
-public class Tank {
+package lab1;
+public class Engine {
 
     private String cc;
     private String hp;
 
-    public Tank(String cc) {
+    public Engine(String cc) {
         this.cc = cc;
     }
 
-    public Tank(String cc, String hp) {
+    public Engine(String cc, String hp) {
         this.cc = cc;
         this.hp = hp;
     }
 
     public void setCC(String c1) {
-    this.cc = c1;
-}
+        this.cc = c1;
+    }
 
     public String getCC() {
-    return this.cc;
+        return this.cc;
+    }
 }
-}
+

@@ -1,3 +1,4 @@
+package lab1;
 /**
 
  * Project: Lab 1
@@ -9,6 +10,7 @@
  * Rev: 1/23/2026
 
  */
+
 
 // Motorcycle class
 public class Motorcycle{
@@ -31,6 +33,9 @@ public class Motorcycle{
      * @param size This is the size of the bike frame.
      */
 
+    public Motorcycle(String color, double size, Material material) {
+        this(color, size, material, 26.0);
+    }
 
     public Motorcycle(String color1, double size, Material frameMaterial, double wheelSize){
         this.colorA = color1;
