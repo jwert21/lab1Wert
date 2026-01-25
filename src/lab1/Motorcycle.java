@@ -4,7 +4,7 @@ package lab1;
  * Project: Lab 1
  * Purpose Details: Motorcycle
  * Course: IST 242
- * Author: Joe Oakes
+ * Author: Jonah Wert
  * Date Developed: 1/22/2026
  * Last Date Changed: 1/23/2026
  * Rev: 1/23/2026
