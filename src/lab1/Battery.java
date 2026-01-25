@@ -13,6 +13,10 @@ public class Battery {
         this.hp = hp;
     }
 
+    public Battery() {
+        this("Single-Cylinder", "Parallel-Twin");
+    }
+
     public void setCC(String c1) {
         this.cc = c1;
     }
