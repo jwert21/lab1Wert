@@ -1,4 +1,3 @@
-package lab1;
 /**
 
  * Project: Lab 1
@@ -10,6 +9,8 @@ package lab1;
  * Rev: 1/22/2026
 
  */
+
+package lab1;
 
 public class Main {
     public static void main(String[] args){
