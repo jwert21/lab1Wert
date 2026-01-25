@@ -13,6 +13,10 @@ public class Engine {
         this.hp = hp;
     }
 
+    public Engine() {
+        this("Regular", "Diesel");
+    }
+
     public void setCC(String c1) {
         this.cc = c1;
     }
