@@ -13,6 +13,10 @@ public class Tank {
         this.hp = hp;
     }
 
+    public Tank() {
+        this("Teardrop", "Coffin");
+    }
+
     public void setCC(String c1) {
     this.cc = c1;
 }
