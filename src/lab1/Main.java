@@ -49,5 +49,16 @@ public class Main {
         System.out.println(myEng.getCC());
         Engine myEng2 = new Engine( "670", "400");
         System.out.println(myEng2.getCC());
+
+        Battery myBattery= new Battery( "850");
+        System.out.println(myBattery.getCC());
+        Battery myBattery2 = new Battery( "470", "200");
+        System.out.println(myBattery2.getCC());
+
+        Tank myTank = new Tank( "450");
+        System.out.println(myTank.getCC());
+        Tank myTank2 = new Tank( "270", "600");
+        System.out.println(myTank2.getCC());
+
     }
 }
