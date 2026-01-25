@@ -38,8 +38,8 @@ public class Main {
         m2.start();
         m2.stop();
 
-        System.out.println("Bike color: " + m3.getColor());
-        System.out.println("Bike size: " + m3.getSize());
+        System.out.println("Motorcycle color: " + m3.getColor());
+        System.out.println("Motorcycle size: " + m3.getSize());
         System.out.println("Frame material: " + m3.getFrameMaterial());
         System.out.println("Wheel size: " + m3.getWheelSize());
         m3.start();
