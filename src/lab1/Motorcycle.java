@@ -40,16 +40,13 @@ public class Motorcycle{
         this(color, size, material, 26.0);
     }
 
-    public Motorcycle(String color1, double size, Material frameMaterial, double wheelSize, Engine engine, Battery battery, Tank tank) {
+    public Motorcycle(String color1, double size, Material frameMaterial, double wheelSize) {
         this.colorA = color1;
         this.size = size;
         this.frame = new Frame(frameMaterial);
         this.wheels = new Wheel[2];
         this.wheels[0] = new Wheel(wheelSize);
         this.wheels[1] = new Wheel(wheelSize);
-        this.engine = engine;
-        this.battery = battery;
-        this.tank = tank;
         this.engine = new Engine();
         this.battery = new Battery();
         this.tank = new Tank();
