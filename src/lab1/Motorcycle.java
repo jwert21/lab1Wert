@@ -1,4 +1,3 @@
-package lab1;
 /**
 
  * Project: Lab 1
@@ -11,8 +10,10 @@ package lab1;
 
  */
 
+package lab1;
 
 // Motorcycle class
+
 public class Motorcycle{
     /**
      * The color of the motorcycle
